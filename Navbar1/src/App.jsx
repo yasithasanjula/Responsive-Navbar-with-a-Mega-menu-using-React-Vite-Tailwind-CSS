@@ -1,11 +1,16 @@
 import { useState } from 'react'
+import Navbar from './Nav/Navbar'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Yasitha Sanjula Herath</h1>
+    <div className=''>
+     <Navbar/>
+    </div>
+      
     </>
   )
 }
